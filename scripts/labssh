@@ -4,10 +4,10 @@ import subprocess
 import sys
 
 switches = {
-	"sw1":	"192.168.1.11",
-	"sw2":	"192.168.1.12",
-	"r1":	"192.168.1.1",
-	"r2":	"192.168.1.2",
+	"sw1":	"10.0.0.11",	# Replace with your SW1 IP			
+	"sw2":	"10.0.0.12",	# Replace with your SW2 IP
+	"r1":	"10.0.0.1",		# Replace with your R1 IP
+	"r2":	"10.0.0.2",		# Replace with your R2 IP
 }
 
 if len(sys.argv) <2:
