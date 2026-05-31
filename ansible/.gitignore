@@ -1,0 +1,4 @@
+inventory.ini
+ansible.cfg
+*.retry
+run_output.txt
