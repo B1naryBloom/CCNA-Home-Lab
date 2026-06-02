@@ -6,8 +6,8 @@ import sys
 switches = {
 	"sw1":	"10.0.0.11",	# Replace with your SW1 IP			
 	"sw2":	"10.0.0.12",	# Replace with your SW2 IP
-	"r1":	"10.0.0.1",		# Replace with your R1 IP
-	"r2":	"10.0.0.2",		# Replace with your R2 IP
+	"sw3":	"10.0.0.13",		# Replace with your R1 IP
+	"sw4":	"10.0.0.14",		# Replace with your R2 IP
 }
 
 if len(sys.argv) <2:
