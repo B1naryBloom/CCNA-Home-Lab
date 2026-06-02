@@ -34,4 +34,4 @@ cmd = [
 	f"{username}@{ip}"
 ]
 
-subprocess.run(cmd).returncode
+subprocess.run(cmd)
