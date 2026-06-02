@@ -18,13 +18,12 @@ if len(sys.argv) <2:
 target = sys.argv[1].lower()
 
 if target not in switches:
-	print(f"Unkown device:	{target}")
+	print(f"Unknown device:	{target}")
 	print("Available:", list(switches.keys()))
-	sys.exit()
+	sys.exit(1)
 
 ip = switches[target]
 
-print("About to ask for username...")
 username = input("Enter username: ")
 
 cmd = [
